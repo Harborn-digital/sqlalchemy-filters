@@ -5,7 +5,7 @@ on:
 
 jobs:
   ci:
-    runs-on: github-ci-runner-set
+    runs-on: ubuntu-latest
     steps:
       - name: Install project and dependencies
         uses: actions/checkout@v4
